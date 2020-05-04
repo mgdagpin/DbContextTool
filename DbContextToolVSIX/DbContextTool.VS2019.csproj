@@ -82,6 +82,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Commands\Resources\GenerateCommand.png" />
+    <Content Include="icons8-group-objects-40.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

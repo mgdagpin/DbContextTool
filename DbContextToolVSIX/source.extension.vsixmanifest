@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="DbContextToolVSIX.6f20bb94-1697-4f0c-b3f8-13e0857d0a69" Version="1.0" Language="en-US" Publisher="Marcelius Dagpin" />
+        <Identity Id="DbContextToolVSIX.6f20bb94-1697-4f0c-b3f8-13e0857d0a69" Version="1.1" Language="en-US" Publisher="Marcelius Dagpin" />
         <DisplayName>DbContext-Generate</DisplayName>
         <Description xml:space="preserve">Generate DbContext of your project from Entities.</Description>
+        <Icon>icons8-group-objects-40.png</Icon>
         <Tags>ASPNETCORE, DbContext, EntityFrameworkCore</Tags>
+        <Preview>true</Preview>
     </Metadata>
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[16.0, 17.0)" />
@@ -19,6 +21,6 @@
     </Prerequisites>
     <Assets>
         <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
-      <Asset Type="Microsoft.VisualStudio.ToolboxControl" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
-  </Assets>
+        <Asset Type="Microsoft.VisualStudio.ToolboxControl" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
+    </Assets>
 </PackageManifest>
