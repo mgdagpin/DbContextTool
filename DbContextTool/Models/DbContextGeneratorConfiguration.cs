@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Marcelius.Tools.DbContextTool
+namespace DbContextTool
 {
     public class DbContextGeneratorConfiguration
     {

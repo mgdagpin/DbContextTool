@@ -1,6 +1,6 @@
-﻿using EnvDTE;
+﻿using DbContextTool;
+using EnvDTE;
 using EnvDTE80;
-using Marcelius.Tools.DbContextTool;
 using Microsoft.VisualStudio.Shell;
 using Microsoft.VisualStudio.Shell.Interop;
 using System;

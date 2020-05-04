@@ -1,4 +1,4 @@
-﻿namespace Marcelius.Tools.DbContextTool
+﻿namespace DbContextTool
 {
     public enum GenerateType : byte
     {
