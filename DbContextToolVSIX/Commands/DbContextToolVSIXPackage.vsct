@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CommandTable xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+
+  <Extern href="stdidcmd.h"/>
+  <Extern href="vsshlids.h"/>
+
+  <Commands package="guidDbContextToolVSIXPackage">
+ 
+    <Groups>
+      <Group guid="guidDbContextToolVSIXPackageCmdSet" id="MyMenuGroup" priority="0x0400">
+        <Parent guid="guidSHLMainMenu" id="IDM_VS_MENU_TOOLS"/>
+      </Group>
+    </Groups>
+
+
+    <Buttons>
+      <Button guid="guidDbContextToolVSIXPackageCmdSet" id="GenerateCommandId" priority="0x0100" type="Button">
+        <Parent guid="guidDbContextToolVSIXPackageCmdSet" id="MyMenuGroup" />
+        <Icon guid="guidImages" id="bmpPic1" />
+        <Strings>
+          <ButtonText>Generate DbContext</ButtonText>
+        </Strings>
+      </Button>
+    </Buttons>
+  
+    <Bitmaps>
+      <Bitmap guid="guidImages" href="Resources\GenerateCommand.png" usedList="bmpPic1, bmpPic2, bmpPicSearch, bmpPicX, bmpPicArrows, bmpPicStrikethrough"/>
+    </Bitmaps>
+  </Commands>
+
+  <Symbols>
+    <GuidSymbol name="guidDbContextToolVSIXPackage" value="{ffa74f79-572a-40af-acd3-3bc573f4089f}" />
+
+    <GuidSymbol name="guidDbContextToolVSIXPackageCmdSet" value="{3eb43acd-ac94-4f58-9f7b-939172156640}">
+      <IDSymbol name="MyMenuGroup" value="0x1020" />
+      <IDSymbol name="GenerateCommandId" value="0x0100" />
+    </GuidSymbol>
+
+    <GuidSymbol name="guidImages" value="{71e5dbc9-a753-4533-894a-995ffde434a7}" >
+      <IDSymbol name="bmpPic1" value="1" />
+      <IDSymbol name="bmpPic2" value="2" />
+      <IDSymbol name="bmpPicSearch" value="3" />
+      <IDSymbol name="bmpPicX" value="4" />
+      <IDSymbol name="bmpPicArrows" value="5" />
+      <IDSymbol name="bmpPicStrikethrough" value="6" />
+    </GuidSymbol>
+  </Symbols>
+</CommandTable>
